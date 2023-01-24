@@ -21,6 +21,9 @@ public class IncredibleCalculator {
                     suma(n1, n2);
                     break;
             case 2: // Restar. Debes leer dos números enteros de entrada e imprimir su resta
+                     int n3= leerEnteroEntrada();
+                    int n4= leerEnteroEntrada();
+                    resta(n3, n4);
                     break;
             case 3: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su producto.
                     break;
